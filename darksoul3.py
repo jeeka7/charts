@@ -8,8 +8,8 @@ st.subheader('was the tutorial helpful')
 weapons=pd.read_csv('https://raw.githubusercontent.com/jeeka7/charts/main/DS3weapon.csv')
 st.write(weapons)
 pie_chart = px.pie(weapons,
-                title='Total No. of Participants',
-                values='Participants',
-                names='Departments')
+                title='Weapons in the game',
+                values='Sell Price',
+                names='Name')
 
 st.plotly_chart(pie_chart)
