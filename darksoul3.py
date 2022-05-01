@@ -1,7 +1,6 @@
 #import pandas as pd
 import streamlit as st
 
-st.set_page_config(page_title='Dark Souls 3 weapon')
 st.header('Weapon used in dark souls 3 are')
 st.subheader('was the tutorial helpful')
 
