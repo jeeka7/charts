@@ -1,6 +1,6 @@
 import pandas as pd
 import streamlit as st
-import plotly as px
+import plotly.express as px
 
 st.header('Weapon used in dark souls 3 are')
 st.subheader('was the tutorial helpful')
